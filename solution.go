@@ -4,6 +4,12 @@ import "math"
 
 type sides int
 
+var (
+	SidesCircle   sides = 0
+	SidesTriangle sides = 3
+	SidesSquare   sides = 4
+)
+
 func CalcSquare(sideLen float64, sidesNum sides) float64 {
 	var sq float64 = 0
 
